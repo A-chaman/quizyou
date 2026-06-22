@@ -1,0 +1,405 @@
+/* === Base Layout === */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* === Main Container === */
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  position: relative; /* Needed for top-right timer positioning */
+}
+
+/* === Headings === */
+h1 {
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+/* === Labels & Inputs === */
+label {
+  display: block;
+  margin: 15px 0 5px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Align Student ID label and input on one line */
+label[for="student-id"] {
+  display: inline-block;
+  width: 25%; /* smaller label */
+  text-align: left;
+  margin: 15px 0 5px;
+}
+
+#student-id {
+  width: 70%; /* wider input */
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-left: 10px; /* small spacing between label and input */
+}
+
+/* Keep all other selects full width */
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* === Buttons (Shared Style) === */
+button,
+.submit-btn,
+.yes-btn,
+.no-btn,
+.ok-btn {
+  padding: 12px 20px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, opacity 0.2s ease;
+}
+
+/* Default (green) button */
+button {
+  background-color: #4caf50;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Disabled button */
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+/* === Quiz Layout === */
+#quiz-screen form {
+  text-align: left;
+  margin-top: 20px;
+}
+
+#quiz-screen label {
+  display: block;
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+/* === Timer (Top-Right Corner) === */
+#timer {
+  font-weight: bold;
+  color: #007bff;
+  text-align: right;
+  margin-top: 10px;
+}
+
+/* Timer positioned top-right in container */
+.timer-top-right {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* === Navigation Buttons === */
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.nav-buttons button {
+  min-width: 120px;
+  flex: 0 0 auto;
+}
+
+/* === Submit Button === */
+.submit-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.submit-btn {
+  background-color: #007bff;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+/* === Error Message (for inline fallback) === */
+.error-message {
+  color: red;
+  margin-top: 8px;
+  font-size: 14px;
+  text-align: left;
+  min-height: 18px;
+  transition: opacity 0.3s ease;
+}
+
+/* === Footer === */
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: gray;
+}
+
+/* === Modal Styles (Custom Confirmation / Error Box) === */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+.modal-box {
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 300px;
+  animation: scaleIn 0.2s ease-in-out;
+}
+
+.modal-box p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Specific button colors */
+.yes-btn {
+  background-color: #28a745;
+}
+
+.yes-btn:hover {
+  background-color: #218838;
+}
+
+.no-btn {
+  background-color: #dc3545;
+}
+
+.no-btn:hover {
+  background-color: #c82333;
+}
+
+/* OK button (for single-button alert modal) */
+.ok-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.ok-btn:hover {
+  background-color: #0056b3;
+}
+
+/* === Animations === */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* === Responsive === */
+@media (max-width: 480px) {
+  .container {
+    padding: 25px 15px;
+  }
+
+  button {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  select {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .nav-buttons button {
+    min-width: 100px;
+    padding: 8px 10px;
+  }
+
+  .submit-btn {
+    width: 100%;
+  }
+
+  .modal-box {
+    width: 80%;
+  }
+
+  /* Make Student ID responsive */
+  label[for="student-id"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  #student-id {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  /* Move timer below title for mobile */
+  .timer-top-right {
+    position: static;
+    text-align: right;
+    display: block;
+    margin-top: 5px;
+  }
+}
+
+/* ID selectors on existing sections */
+#setup-screen {
+  display: block; /* ensure setup section is treated as a block container */
+}
+
+#quiz-screen {
+  width: 100%; /* keep quiz area aligned with the main container */
+}
+
+#result-screen {
+  width: 100%; /* keep result area aligned with the main container */
+}
+
+#note {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: gray;
+}
+
+/* Extra descendant selectors on existing structure */
+.container h1 {
+  margin-bottom: 30px;
+}
+
+#setup-screen label {
+  display: block;
+}
+
+#quiz-screen .submit-btn {
+  margin-top: 10px;
+}
+
+.result-container p strong {
+  font-weight: bold;
+}
+
+footer#note p {
+  margin: 0;
+}
+
+/* Label immediately followed by an input (Student ID row) */
+label + input[type="text"] {
+  margin-top: 0;
+}
+
+/* Label immediately followed by a select (all dropdowns) */
+label + select {
+  margin-top: 0;
+}
+
+/* Paragraphs inside result container that follow another paragraph */
+.result-container p + p {
+  margin-top: inherit;
+}
+
+/* An error message followed directly by a label (future-safe) */
+.error-message + label {
+  margin-top: inherit;
+}
+
+/* Buttons that appear next to each other in the navigation area */
+.nav-buttons button + button {
+  margin-left: 0;
+}
+
+/* Buttons that appear next to each other in the modal dialog */
+.modal-buttons button + button {
+  margin-left: 0;
+}
+
+/* Decorative hook after the main title */
+h1::after {
+  content: "";
+  display: none;
+}
+
+/* Decorative marker before result paragraphs */
+.result-container p::before {
+  content: "";
+  display: none;
+}
+
+/* Decorative marker before modal message text */
+.modal-box p::before {
+  content: "";
+  display: none;
+}

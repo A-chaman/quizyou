@@ -1,0 +1,35 @@
+[
+    {
+        "studentId": "102030",
+        "studentName": "Just Testing",
+        "studentEmail": "",
+        "subject": "Testing",
+        "score": "5 out of 5",
+        "percentage": "100%",
+        "timeTaken": "0 minutes 34 seconds.",
+        "autoSubmit": "No",
+        "timestamp": "2026-06-22 05:27:54 PM"
+    },
+    {
+        "studentId": "102030",
+        "studentName": "Just Testing",
+        "studentEmail": "",
+        "subject": "Testing",
+        "score": "2 out of 10",
+        "percentage": "20%",
+        "timeTaken": "0 minutes 14 seconds.",
+        "autoSubmit": "No",
+        "timestamp": "2026-06-22 05:28:35 PM"
+    },
+    {
+        "studentId": "102030",
+        "studentName": "Just Testing",
+        "studentEmail": "",
+        "subject": "Module 1",
+        "score": "5 out of 5",
+        "percentage": "100%",
+        "timeTaken": "2 minutes 56 seconds.",
+        "autoSubmit": "No",
+        "timestamp": "2026-06-22 05:31:38 PM"
+    }
+]

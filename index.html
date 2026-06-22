@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Exam System</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Online Exam System</h1>
+
+    <!-- Setup Screen -->
+    <div id="setup-screen">
+      <!-- Student ID Input -->
+      <label for="student-id">Student ID:</label>
+      <input
+        type="text"
+        id="student-id"
+        placeholder="Enter your Student ID"
+        required
+      >
+
+      <!-- Error Message -->
+      <p id="student-error" class="error-message"></p>
+
+      <!-- Subject Selection -->
+      <label for="subject">Choose Subject:</label>
+      <select id="subject">
+        <!-- Options are loaded dynamically by main.js via list_subjects.php -->
+      </select>
+
+      <!-- Question Count -->
+      <label for="question-count">Number of Questions:</label>
+      <select id="question-count">
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="15">15</option>
+        <option value="20">20</option>
+        <option value="25">25</option>
+        <option value="30">30</option>
+        <option value="35">35</option>
+        <option value="40">40</option>
+      </select>
+
+      <!-- Time Limit -->
+      <label for="time-limit">Time Limit:</label>
+      <select id="time-limit">
+        <option value="1">1 minutes</option>
+        <option value="5">5 minutes</option>
+        <option value="15">15 minutes</option>
+        <option value="30">30 minutes</option>
+        <option value="45">45 minutes</option>
+        <option value="60">60 minutes</option>
+        <option value="90">90 minutes</option>
+      </select>
+
+      <!-- Start Button -->
+      <button id="start-btn">Start Exam</button>
+    </div>
+
+    <!-- Quiz Screen -->
+    <div id="quiz-screen" style="display: none"></div>
+
+    <!-- Result Screen -->
+    <div id="result-screen" style="display: none"></div>
+  </div>
+
+  <footer id="note">
+    <p>Note: Only registered students can take the exam.</p>
+  </footer>
+
+  <!-- === Correct Script Order for Modules === -->
+  <script type="module" src="js/submit.js"></script>
+  <script type="module" src="js/quiz.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

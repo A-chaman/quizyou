@@ -1,0 +1,512 @@
+[
+  {
+    "question": "Which testing type is considered a Dynamic test type?",
+    "choices": [
+      "Static Review",
+      "Functional Test",
+      "Code Inspection",
+      "Walkthrough"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In software engineering, what is considered the greatest virtue of a software team?",
+    "choices": [
+      "Working overtime",
+      "Using many tools",
+      "Staying well-focused",
+      "Avoiding meetings"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which role is responsible for documenting customer requirements?",
+    "choices": [
+      "Project Manager",
+      "Program Manager",
+      "Product Manager",
+      "Release Engineer"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What does elasticity mean in cloud computing?",
+    "choices": [
+      "Resources cannot be changed",
+      "Users can return resources when no longer needed",
+      "Systems always run locally",
+      "Only storage can expand"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the best description of burden rate?",
+    "choices": [
+      "Lines of code written",
+      "Amount of money paid in a given time",
+      "Number of engineers in a company",
+      "Project duration"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which activity helps prevent defects before release?",
+    "choices": [
+      "Ignoring code reviews",
+      "Peer reviews",
+      "Skipping testing",
+      "Reducing communication"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is most likely to happen if developers are added late to a project?",
+    "choices": [
+      "Productivity will increase immediately",
+      "The project will instantly finish",
+      "Productivity will sink and the project will be delayed",
+      "Testing will no longer be needed"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which cloud setup combines public and private cloud?",
+    "choices": [
+      "Single cloud",
+      "Distributed cloud",
+      "Hybrid cloud",
+      "Central cloud"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which statement about requirements is true?",
+    "choices": [
+      "Requirements should never change",
+      "Requirements are developed iteratively",
+      "Requirements are unnecessary",
+      "Requirements should only be written once"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What should happen when assumptions change during backlog grooming?",
+    "choices": [
+      "Ignore the assumptions",
+      "Cancel the project",
+      "Revise the estimate",
+      "Delete all features"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which of the following is a fault?",
+    "choices": [
+      "Blue screen of death",
+      "Network outage",
+      "Null pointer dereferencing",
+      "System slowdown"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which of the following is a failure?",
+    "choices": [
+      "Integer overflow",
+      "Buffer overflow",
+      "Uninitialized memory",
+      "Loss of connectivity between users"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is commonly used for scalable version control?",
+    "choices": [
+      "Sticky notes",
+      "Central email chain",
+      "Distributed version control like Git",
+      "Paper reports"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which engineering practice supports scalability?",
+    "choices": [
+      "One engineer reviews all code",
+      "Manual testing of all combinations",
+      "Single Excel bug tracker",
+      "Automated regression testing pipelines"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which statement best describes a professional software engineer?",
+    "choices": [
+      "I do not test because QA handles it",
+      "I delegate my thinking to AI",
+      "I write clean code",
+      "I avoid peer reviews"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which activity is important in requirements elicitation?",
+    "choices": [
+      "Asking users about programming languages",
+      "Understanding user workflow",
+      "Selecting database vendors",
+      "Choosing office furniture"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which question is appropriate during context-free interviewing?",
+    "choices": [
+      "Should we rewrite everything in Java?",
+      "Will you support Jira migration?",
+      "What annoys you most about the current system?",
+      "Should developers use Linux?"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which statement about personas is correct?",
+    "choices": [
+      "Only real individuals should be included",
+      "Personas are generalized archetypes",
+      "Personas are social security numbers",
+      "Only developers are personas"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the purpose of regression testing?",
+    "choices": [
+      "Delete old features",
+      "Verify previous functionality still works",
+      "Reduce team size",
+      "Replace documentation"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which factor increases communication effort in organizations?",
+    "choices": [
+      "Reducing employees",
+      "Better automation",
+      "Increasing number of people",
+      "Smaller projects"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What correlates positively with defect removal efficiency?",
+    "choices": [
+      "Lower testing",
+      "Process rigor",
+      "Ignoring reviews",
+      "Reduced communication"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which role commonly maintains the project plan?",
+    "choices": [
+      "Product Manager",
+      "Software Tester",
+      "Project Manager",
+      "DevOps Engineer"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is a common result of excessive multitasking?",
+    "choices": [
+      "Improved concentration",
+      "Better code quality",
+      "Increased focus",
+      "High cost of interruptions"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which practice is increasing because of AI-generated code?",
+    "choices": [
+      "Memorizing APIs",
+      "Human review of generated code",
+      "Avoiding testing",
+      "Manual deployments"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which skill is becoming more important with AI tools?",
+    "choices": [
+      "Typing faster",
+      "Reviewing AI-generated code",
+      "Avoiding collaboration",
+      "Writing code without tools"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following is an example of a bug?",
+    "choices": [
+      "Payment confirmation message",
+      "Upload progress bar",
+      "Duplicate orders caused by repeated clicking",
+      "Receipt generation"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which behavior is considered a feature?",
+    "choices": [
+      "Blank screen after submit",
+      "No upload confirmation",
+      "Unexpected logout",
+      "Payment successful message with receipt"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What does abstracting mean in personas and instances?",
+    "choices": [
+      "Moving from personas to instances",
+      "Moving from instances to personas",
+      "Deleting personas",
+      "Removing requirements"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What does validating mean in personas and instances?",
+    "choices": [
+      "Moving from personas to instances",
+      "Deleting archetypes",
+      "Ignoring users",
+      "Removing classifications"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which statement about software architecture is most likely NOT true?",
+    "choices": [
+      "Architects should understand code",
+      "Code reviews are valuable",
+      "Testing is important",
+      "Architects never need coding experience"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which statement about software engineers is professional?",
+    "choices": [
+      "I avoid teamwork",
+      "I am responsible for my team",
+      "I never do testing",
+      "I ignore documentation"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is commonly used during UX design?",
+    "choices": [
+      "Definition #1",
+      "Definition #2",
+      "Definition #3",
+      "Definition #4"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which engineering activity supports automated testing?",
+    "choices": [
+      "Definition #1",
+      "Definition #2",
+      "Definition #3",
+      "Definition #4"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which cloud providers were said to have the greatest adoption?",
+    "choices": [
+      "IBM and Google",
+      "Amazon and Microsoft",
+      "Oracle and SAP",
+      "Dropbox and Yahoo"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What should be done with unrealistic fantasy requirements?",
+    "choices": [
+      "Document them immediately",
+      "Approve them automatically",
+      "Do not document them",
+      "Assign them to QA"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which requirement should be documented?",
+    "choices": [
+      "A fantasy feature",
+      "A requirement already rejected",
+      "A requirement too large to understand",
+      "A requirement agreed upon for the backlog"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which statement about software testing is true?",
+    "choices": [
+      "Testing is decreasing in importance",
+      "Human-led testing skills are increasing in importance",
+      "Testing is no longer needed",
+      "AI completely replaces testing"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which activity helps software engineers improve continuously?",
+    "choices": [
+      "Avoiding education",
+      "Ignoring standards",
+      "Taking online classes regularly",
+      "Skipping peer reviews"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What happens when test coverage increases?",
+    "choices": [
+      "Recorded defects may initially increase",
+      "All defects disappear instantly",
+      "Projects end faster automatically",
+      "Requirements are removed"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What is the first logical step in many software projects?",
+    "choices": [
+      "Writing deployment scripts",
+      "Documenting personas",
+      "Purchasing servers",
+      "Hiring testers"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What type of team structure is increasingly common in modern development?",
+    "choices": [
+      "Large centralized teams",
+      "Autonomous teams responsible for components",
+      "Single developer projects only",
+      "Teams without communication"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which statement about Git is true?",
+    "choices": [
+      "Git usage has significantly declined",
+      "Git is unrelated to scalability",
+      "Distributed version control helps scaling",
+      "Git replaces testing"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which activity is part of backlog grooming?",
+    "choices": [
+      "Ranking features beforehand",
+      "Ignoring assumptions",
+      "Skipping estimation",
+      "Avoiding meetings"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What is a likely software engineering bottleneck today?",
+    "choices": [
+      "Keyboard typing speed",
+      "Compatibility and system behavior",
+      "Installing printers",
+      "Writing comments only"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which statement about clean code is correct?",
+    "choices": [
+      "Clean code depends on nationality",
+      "Clean code is part of professionalism",
+      "Clean code removes need for testing",
+      "Clean code replaces teamwork"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the purpose of peer reviews?",
+    "choices": [
+      "Increase defects",
+      "Reduce collaboration",
+      "Prevent defects and improve quality",
+      "Replace documentation"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which activity does NOT scale well?",
+    "choices": [
+      "Microservices with APIs",
+      "Automated testing pipelines",
+      "Distributed version control",
+      "One engineer handling all code reviews"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which statement about customer complaints is true?",
+    "choices": [
+      "More defects usually reduce complaints",
+      "Defect correction can eventually reduce complaints",
+      "Testing never affects complaints",
+      "Complaints are unrelated to software quality"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which practice is recommended for introducing offshoring?",
+    "choices": [
+      "Big bang introduction",
+      "No planning",
+      "Step-by-step introduction and piloting",
+      "Immediate global rollout"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which software engineering activity is associated with clean communication and teamwork?",
+    "choices": [
+      "Avoiding discussions",
+      "Collaborative brainstorming",
+      "Ignoring customer issues",
+      "Working without coordination"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Why are implementable stories important?",
+    "choices": [
+      "They reduce communication",
+      "They deliver value effectively",
+      "They remove the need for testing",
+      "They replace system design"
+    ],
+    "correctAnswer": 1
+  }
+]
