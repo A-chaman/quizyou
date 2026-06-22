@@ -2,11 +2,16 @@ CS673 Software Engineering Project
 
 team members:
 
-Abhishikth Koka (abhikoka@bu.edu)
-Amir m Chaman (chaman11@bu.edu)
-Cole Smith (csmith00@bu.edu)
+Abhishikth Koka (abhikoka@bu.edu)  
+
+Amir m Chaman (chaman11@bu.edu)  
+
+Cole Smith (csmith00@bu.edu)  
+
 David Bacon (dbacon89@bu.edu)
+
 Saranne Hobbs (saranneh@bu.edu)
+
 Sophia Muren (smuren@bu.edu)
 
 Online Exam System built with HTML, CSS, JavaScript (modules), and PHP. (it is Mobile-first)
