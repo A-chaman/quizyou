@@ -1,5 +1,14 @@
 CS673 Software Engineering Project
 
+team members:
+
+Abhishikth Koka (abhikoka@bu.edu)
+Amir m Chaman (chaman11@bu.edu)
+Cole Smith (csmith00@bu.edu)
+David Bacon (dbacon89@bu.edu)
+Saranne Hobbs (saranneh@bu.edu)
+Sophia Muren (smuren@bu.edu)
+
 Online Exam System built with HTML, CSS, JavaScript (modules), and PHP. (it is Mobile-first)
 
 The user enters a valid Student ID, selects a subject, chooses how many questions to answer, and starts a timed multiple choice exam. Questions are loaded dynamically from JSON files in the question-bank folder, and the system randomly selects the requested amount.
